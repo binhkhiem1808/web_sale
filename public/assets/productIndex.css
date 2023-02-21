@@ -1,0 +1,26 @@
+.table td img {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+
+}
+
+.table td {
+    text-align: center;
+}
+
+body > div.container > div.row > div > table > thead > tr:nth-child(1),
+body > div.container > div.row > div > table > thead > tr:nth-child(2)
+body > div.container > div.row > div > table > thead > tr:nth-child(3)
+body > div.container > div.row > div > table > thead > tr:nth-child(4)
+body > div.container > div.row > div > table > thead > tr:nth-child(5)
+{
+    text-align: center;
+}
+
+
+#contactus {
+    margin-top: 280px;
+}
+
+

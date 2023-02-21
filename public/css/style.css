@@ -1,0 +1,572 @@
+
+
+body {
+    padding: 0 !important;
+    background-color: #fafafa;
+}
+
+/* Header */
+
+nav {
+    height: 70px;
+    z-index: 9999;
+
+}
+
+#navbarSupportedContent > ul:nth-child(2) > form {
+    display: flex;
+}
+
+#navbarSupportedContent > ul:nth-child(2) > form > div > input[type=text] {
+    height: 39px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+#navbarSupportedContent > ul:nth-child(2) > form > button {
+    border: none;
+    background: none;
+    margin-right: 24px;
+}
+
+#navbarSupportedContent > ul:nth-child(2) > form > button:hover {
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+
+
+
+
+.container-fluid {
+    /* margin-left: 30px; */
+    background-color: #fff;
+    padding-left: 70px;
+    padding-bottom: 12px;
+    
+}
+
+#navbarSupportedContent > ul:nth-child(2) > div > ul {
+    margin-top: 14px;
+}
+
+
+
+
+#navbarSupportedContent > ul:nth-child(2) > div > a {
+    display: inline-block;
+    margin-left: 33px;
+}
+.collapse ul {
+    /* display: flex; */
+    /* line-height: 40px; */
+
+}
+
+.collapse {
+    /* display: flex; */
+    justify-content: flex-end;
+}
+
+.collapse ul li {
+    list-style-type: none;
+    margin-right: 36px;
+}
+
+
+.collapse ul li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #333;
+    font-size: 14px;
+}
+
+.navbar-collapse {
+    margin-left: 20px;
+}
+
+/* #navbarSupportedContent > ul:nth-child(2) > li > a {
+    padding: 8px 24px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 16px;    padding: 8px 24px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    text-transform:capitalize;
+    font-size: 16px;
+} */
+
+body > nav > div.container-fluid {
+    padding-bottom: 0;
+}
+
+
+#navbarSupportedContent > ul > li > a > i
+{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#navbarSupportedContent > ul:nth-child(2) > li.nav-item > a > i {
+    margin-right: 24px;
+    font-size: 20px;
+}
+
+#navbarSupportedContent > ul:nth-child(2) > li {
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+}
+
+#navbarSupportedContent > ul:nth-child(2) > div > a {
+    margin-left: 5px;
+}
+
+#navbarSupportedContent > ul:nth-child(2) > li > a > i > sup {
+    background: red;
+    color: #fff;
+    border-radius: 42px;
+    padding: 3px;
+    font-size: 16px;
+}
+
+body > form > section > div > div > div > div > div > div > div.col-lg-4.bg-grey > div > div > input  {
+    width: 100%;
+    height: 40px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+
+body > form > section > div > div > div > div > div > div > div.col-lg-4.bg-grey > div > div:nth-child(9) > textarea{
+    height: 65px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+/* Slider */
+
+#carouselExampleAutoplaying {
+    margin-bottom: 70px;
+
+}
+
+
+#carouselExampleAutoplaying > div > div > img {
+    height: 700px;
+}
+
+#carouselExampleAutoplaying > div > div > img {
+    height: 50%;
+}
+
+body > section > div.gallery > div {
+    margin-top: 50px;
+    
+}
+
+
+body > section > .gallery {
+    width: 100%;
+    height: 850px;
+    background-image: url('https://static.kinhtedothi.vn/w960/images/upload/2021/12/26/long-bien-2.jpg');
+}
+
+
+/* Blog */
+
+.blog
+{
+    width: 380px;
+    height: auto;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.blog:hover {
+    zoom: 1.01;
+}
+
+.blog img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.blog h3 {
+    font-size: 25px;
+    font-weight: bold;
+    /* white-space: nowrap; */
+    /* font-family: SVN-Futura; */
+}
+
+.blog p {
+    font-size: 14px;
+}
+
+#special > div > div > h1 {
+        text-align: center;
+    margin-top: 64px;
+    text-transform: uppercase;
+    letter-spacing: 18px;
+    margin-bottom: 10px;
+}
+
+/* Events */
+
+.events {
+    text-decoration: none;
+    color: #fff;
+    margin-top: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-image: url('https://static.purseblog.com/images/2022/11/Chanel-Cruise-2023-Runway-Bags-1-of-35.jpg');
+}
+
+.events .title, .subtitle, .place, .time {
+    position: absolute;
+}
+
+.events .title {
+top: 18%;
+    font-size: 100px;
+    /* left: 50%; */
+    text-shadow: 2px 2px #000;
+}
+
+.events .subtitle {
+    top: 45%;
+    /* font-size: 40px; */
+    text-shadow: 2px 2px #000;
+
+}
+
+.events .place {
+    top: 85%;
+    text-shadow: 1px 1px #000;
+
+}
+
+.events .time {
+    top: 90%;   
+     text-shadow: 1px 1px #000;
+
+
+}
+
+
+
+
+/*<=============Footer=============>*/
+
+
+.footer {
+    background-color: #f1f1f1;
+    margin-top: 280px;
+}
+
+#contactus > div > div > div:nth-child(4) > div {
+    text-align: center;
+}
+
+.title h3 {
+    font-size: 16px;
+    color: #000;
+    text-transform: capitalize;
+    font-family: var(--font-family-georgia);
+    margin-bottom: 0;
+    margin-top: 40px;
+    margin-bottom: 33px;
+
+}
+
+.title h4 {
+    font-size: 13px;
+    color: #000;
+    text-transform: capitalize;
+    font-family: var(--font-family-georgia);
+    margin-bottom: 0;
+    margin-top: 17px;
+
+}
+
+.title h5 {
+    font-size: 10px;
+    color: #000;
+    font-family: var(--font-family-georgia);
+    margin-bottom: 0;
+    margin-top: 12px;
+}
+
+
+.title>h5>span:first-child {
+    color: var(--light-blue-color);
+}
+
+.title>h5>span:last-child {
+    color: #979797;
+}
+
+.title p {
+    color: #979797;
+    font-family: var(--font-family-georgia);
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.title a {
+    font-size: 13px;
+    color: var(--light-blue-color);
+    text-transform: capitalize;
+    color: #000;
+    text-decoration: none;
+}
+
+.title a i {
+    font-size: 8px;
+}
+
+.title ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+
+.title ul li {
+    list-style-type: none;
+    border-bottom: 1px solid #404040;
+}
+
+.title>ul>li>a>i {
+    margin-right: 5px;
+}
+
+
+.title p {
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+
+.title p a {
+    color: var(--light-blue-color);
+    text-transform: none;
+}
+
+/* Col 4 */
+
+
+
+
+.title form input,
+textarea {
+    background-color: #fff;
+    border: none;
+    width: 100%;
+    height: 36px;
+    margin-bottom: 6px;
+    color: #000;
+}
+
+.title textarea {
+    height: 79px;
+}
+
+
+.title button {
+    background-color: #40aed7;
+    margin-bottom: 40px;
+}
+
+.products {
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 0 20px;
+    width: 250px;
+    margin-bottom: 12px;
+}
+
+.card img:hover {
+    /* zoom: 1.5; */
+}
+.products a {
+    text-decoration: none;
+    color: #333;
+}
+
+.products h6 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.products h5 {
+    font-size: 18px;
+
+}
+
+.products p {
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.card-body {
+    text-align: center;
+
+}
+
+body > section > div:nth-child(3) > div {
+    justify-content: center;
+}
+
+body > section > div:nth-child(3) > div > div > a > div {
+    /* margin: 10px; */
+}
+
+
+
+/* Events */
+
+
+body > section > div:nth-child(4) > div > div {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    letter-spacing: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+
+body > section > div:nth-child(4) > div > div > h1 {
+    border-bottom: 3px solid #000;
+    padding: 24px;
+}
+
+body > section > div:nth-child(2) > div > div {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    letter-spacing: 4px;
+    /* text-align: center; */
+    text-transform: uppercase;
+
+}
+
+
+
+
+.events {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img-box {
+    width: 100px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 50px;
+    background:  url(/img/event01.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: width 0.5s;
+
+}
+
+img.card-img-top {
+    height: 367px;
+    object-fit: contain;
+}
+
+
+.img-box:nth-child(2) {
+    background:  url(/img/event02.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img-box:nth-child(3) {
+    background:  url(/img/event03.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img-box:nth-child(4) {
+    background:  url(/img/event04.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.img-box h3 {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.img-box:hover {
+    width: 300px;
+    cursor: pointer;
+}
+
+.img-box:hover h3 {
+    opacity: 1;
+    bottom: 25px;
+
+}
+
+
+
+
+/*---------Fix bug css-------------*/
+
+body > div.container > div.col-md-12 > nav > div.hidden.sm\:flex-1.sm\:flex.sm\:items-center.sm\:justify-between > div:nth-child(2) > span > span:nth-child(4) > span > svg, 
+body > div.container > div.col-md-12 > nav > div.hidden.sm\:flex-1.sm\:flex.sm\:items-center.sm\:justify-between > div:nth-child(2) > span > a.relative.inline-flex.items-center.px-2.py-2.-ml-px.text-sm.font-medium.text-gray-500.bg-white.border.border-gray-300.rounded-r-md.leading-5.hover\:text-gray-400.focus\:z-10.focus\:outline-none.focus\:ring.ring-gray-300.focus\:border-blue-300.active\:bg-gray-100.active\:text-gray-500.transition.ease-in-out.duration-150 > svg {
+    width: 28px;
+    height: auto;
+}
+
+body > div.container > div.col-md-12 > nav > div.hidden.sm\:flex-1.sm\:flex.sm\:items-center.sm\:justify-between > div:nth-child(2) > span > a.relative.inline-flex.items-center.px-2.py-2.text-sm.font-medium.text-gray-500.bg-white.border.border-gray-300.rounded-l-md.leading-5.hover\:text-gray-400.focus\:z-10.focus\:outline-none.focus\:ring.ring-gray-300.focus\:border-blue-300.active\:bg-gray-100.active\:text-gray-500.transition.ease-in-out.duration-150 > svg, 
+body > div.container > div.col-md-12 > nav > div.hidden.sm\:flex-1.sm\:flex.sm\:items-center.sm\:justify-between > div:nth-child(2) > span > span:nth-child(1) > span > svg {
+    width: 28px;
+    height: auto;
+}
+
+body > div.container > div.col-md-12 > nav > div.flex.justify-between.flex-1.sm\:hidden, 
+body > div.container > div.col-md-12 > nav > div.hidden.sm\:flex-1.sm\:flex.sm\:items-center.sm\:justify-between > div:nth-child(1) > p {
+    display: none;
+}

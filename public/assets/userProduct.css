@@ -1,0 +1,55 @@
+body > div.container > div.row > div.col-md-9.products {
+    display: flex;
+    max-width: 990px;
+    flex-wrap: wrap;
+    /* justify-content:; */
+}
+
+body > div.container > div.row > div.col-md-9.products > a {
+    text-decoration: none;
+    color: #333;
+}
+
+.card {
+    margin: 10px;
+    width: 200px;
+}
+
+body > div.container > div.row > div.col-md-9.products > a > div > div > h6 {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+body > div.container > div.row > div.col-md-9.products > a > div > div > h5 {
+    font-size: 18px;
+}
+
+body > div.container > div.row > div.col-md-9.products > a > div > div > p {
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+body > div.container > div.row > div.col-md-9.products > div {
+    width: 200px;
+    
+}
+
+
+body > div.container > div.row > div.col-md-9.products > a > div {
+    /* border: none; */
+
+}
+.card-body {
+    text-align: center;
+
+}
+
+
+
+body > div.container > div.col-md-12.display-flex-center > nav > div.hidden.sm\:flex-1.sm\:flex.sm\:items-center.sm\:justify-between > div {
+    display: flex;
+    justify-content: end;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+
